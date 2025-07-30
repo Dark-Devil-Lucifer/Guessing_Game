@@ -15,33 +15,22 @@ A simple command-line number guessing game written in Rust. This project is idea
 ---
 
 ## 🛠️ Getting Started
-
-### ⚙️ Requirements
-
-- Rust and Cargo installed  
-  You can install both with [rustup](https://rustup.rs/):
-  ```bash
-  curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+Installation
 🔧 Build & Run
-bash
-Copy
-Edit
+
 git clone https://github.com/Dark-Devil-Lucifer/Guessing_Game.git
 cd Guessing_Game
 cargo run
+
 📁 Project Structure
-bash
-Copy
-Edit
+
 Guessing_Game/
 ├── src/
 │   └── main.rs         # Game logic
 ├── Cargo.toml          # Rust project config
 └── .gitignore          # Git exclusions
 📸 Preview
-graphql
-Copy
-Edit
+
 Guess the number!
 Please input your guess: 50
 Too low!
